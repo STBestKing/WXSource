@@ -1,0 +1,18 @@
+<!--pages/demo01/loading/loading.wxml-->
+<!--pages/demo01/Loading/Loading.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>1. 交互反馈-加载提示框的简单应用</view>
+    <view class='demo-box'>
+      <view class='title'>(1) 显示加载提示框</view>
+      <button type="primary" bindtap="showLoading">显示Loading</button>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>(2) 关闭加载提示框</view>
+      <button type="primary" bindtap="hideLoading">关闭Loading</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>
+

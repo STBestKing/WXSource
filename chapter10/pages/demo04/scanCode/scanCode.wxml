@@ -1,0 +1,15 @@
+<!--pages/demo04/scanCode/scanCode.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>4. 用户行为</view>
+    <view class='demo-box'>
+      <view class='title'>扫码</view>
+      <button type="primary" bindtap="scanCode">开始扫码</button>
+      <view class='status'>字符集：{{res.charSet}}</view>
+      <view class='status'>扫码类型：{{res.scanType}}</view>
+      <view class='status'>扫码结果：{{res.result}}</view>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

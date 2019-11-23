@@ -1,0 +1,18 @@
+<!--pages/demo04/videoCtx/videoCtx.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>3. 视频管理</view>
+    <view class='demo-box'>
+      <view class='title'>视频管理综合应用</view>
+      <button bindtap="chooseVideo">选择视频</button>
+      <video id="myVideo" src="{{src}}" enable-danmu danmu-btn controls></video>
+      <button type="primary" size='mini' bindtap="play">播放</button>
+      <button type="primary" size='mini' bindtap="pause">暂停</button>
+      <button type="primary" size='mini' bindtap="saveVideo">保存视频</button>
+      <input placeholder='请在此处填写弹幕内容' bindblur="bindInputBlur" />
+      <button type='primary' bindtap="bindSendDanmu">发送弹幕</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

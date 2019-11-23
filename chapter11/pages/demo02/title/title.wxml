@@ -1,0 +1,13 @@
+<!--pages/demo02/title/title.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>2. 导航条设置-标题的简单应用</view>
+    <view class='demo-box'>
+      <view class='title'>设置导航条标题</view>
+      <input type='text' placeholder='请输入自定义的导航条标题' bindinput='titleInput'></input>
+      <button type="primary" bindtap="setTitle">设置标题</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

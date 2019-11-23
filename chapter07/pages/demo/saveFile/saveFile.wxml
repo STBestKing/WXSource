@@ -1,0 +1,18 @@
+<!--pages/demo/saveFile/saveFile.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>1. 保存文件的简单应用</view>
+    <view class='demo-box'>
+      <view class='title'>(1)下载文件</view>
+      <button type="primary" bindtap="downloadFile">下载文件</button>
+      <image wx:if='{{src}}' src='{{src}}' mode='widthFix'></image>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>(2)保存文件</view>
+      <button type="primary" bindtap="saveFile">保存文件</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>
+

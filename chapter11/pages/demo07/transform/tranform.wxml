@@ -1,0 +1,17 @@
+<!--pages/demo07/transform/tranform.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>7. 绘图</view>
+    <view class='demo-box'>
+      <view class='title'>图像变形</view>
+      <canvas canvas-id='myCanvas' style='border:1rpx solid'></canvas>
+      <button type='primary' size='mini' bindtap='translate'>移动</button>
+      <button type='primary' size='mini' bindtap='rotate'>旋转</button>
+      <button type='primary' size='mini' bindtap='scale'>缩放</button>
+      <button type='primary' size='mini' bindtap='transform'>矩阵变形</button>
+      <button bindtap='drawBox'>还原</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

@@ -1,0 +1,29 @@
+<!--pages/demo03/tabBar/tabBar.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>3. tabBar设置</view>
+    <view class='demo-box'>
+      <view class='title'>(1)右上角文本设置</view>
+      <button type="primary" size='mini' bindtap="setText">添加文本</button>
+      <button type="primary" size='mini' bindtap="removeText">取消文本</button>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>(2)右上角红点设置</view>
+      <button type="primary" size='mini' bindtap="showRedDot">添加红点</button>
+      <button type="primary" size='mini' bindtap="hideRedDot">取消红点</button>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>(3)tabBar样式设置</view>
+      <button type="primary" size='mini' bindtap="setBarStyle">整体设置</button>
+      <button type="primary" size='mini' bindtap="setBarItemStyle">单项设置</button>
+      <button type="primary" size='mini' bindtap="resetBarStyle">还原</button>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>(4)tabBar的显示与隐藏</view>
+      <button type="primary" size='mini' bindtap="showTabBar">显示tabBar</button>
+      <button type="primary" size='mini' bindtap="hideTabBar">隐藏tabBar</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

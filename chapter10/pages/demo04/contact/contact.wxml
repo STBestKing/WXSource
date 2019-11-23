@@ -1,0 +1,15 @@
+<!--pages/demo04/contact/contact.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>4. 用户行为</view>
+    <view class='demo-box'>
+      <view class='title'>通讯</view>
+      <input bindblur='nameBlur' placeholder='请输入联系人姓名' />
+      <input bindblur='phoneBlur' placeholder='请输入联系人电话' />
+      <button type="primary" bindtap="makeCall">拨打电话</button>
+      <button bindtap="addPerson">添加联系人</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

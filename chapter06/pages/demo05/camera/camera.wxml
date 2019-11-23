@@ -1,0 +1,15 @@
+<!--pages/demo05/camera/camera.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>5. 相机管理</view>
+    <view class='demo-box'>
+      <view class='title'>录像功能应用</view>
+      <camera device-position="back" flash="off" style="width: 100%; height: 300px;"></camera>
+      <button wx:if='{{isRecording}}' type="primary" bindtap="stopRecord">结束录像</button>
+      <button wx:else type="primary" bindtap="startRecord">开始录像</button>
+      <video hidden='{{isHidden}}' id='myVideo' src='{{src}}' controls></video>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

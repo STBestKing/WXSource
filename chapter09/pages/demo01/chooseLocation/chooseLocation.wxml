@@ -1,0 +1,17 @@
+<!--pages/demo01/chooseLocation/chooseLocation.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>1. 获取位置chooseLocation的简单应用</view>
+    <view class='demo-box'>
+      <view class='title'>wx.chooseLocation(OBJECT)</view>
+      <map latitude='{{lat}}' longitude='{{lon}}'></map>
+      <button type="primary" bindtap="chooseLocation">选择位置</button>
+      <view class='title'>名称：{{name}}</view>
+      <view class='title'>地址：{{address}}</view>
+      <view class='title'>纬度：{{lat}}</view>
+      <view class='title'>经度：{{lon}}</view>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

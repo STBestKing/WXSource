@@ -1,0 +1,18 @@
+<!--pages/demo01/getSysInfo/getSysInfo.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>1. 系统信息</view>
+    <view class='demo-box'>
+      <view class='title'>获取系统信息</view>
+      <button type="primary" size='mini' bindtap="getSysInfo">异步查询</button>
+      <button type="primary" size='mini' bindtap="getSysInfoSync">同步查询</button>
+      <button type="primary" size='mini' bindtap="reset">清空结果</button>
+      <view class='title'>手机品牌：{{res.brand}}</view>
+      <view class='title'>手机型号：{{res.model}}</view>
+      <view class='title'>操作系统：{{res.system}}</view>
+      <view class='title'>客户端平台：{{res.platform}}</view>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

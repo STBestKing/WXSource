@@ -1,0 +1,17 @@
+<!--pages/demo01/modal/modal.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>1. 交互反馈-模态弹窗的简单应用</view>
+    <view class='demo-box'>
+      <view class='title'>(1)有【取消】按钮的模态弹窗</view>
+      <button type="primary" bindtap="showModal1">显示Modal</button>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>(2)无【取消】按钮的模态弹窗</view>
+      <button type="primary" bindtap="showModal2">显示Modal</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>
+

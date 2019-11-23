@@ -1,0 +1,32 @@
+<!--pages/index.wxml-->
+<view class='container'>
+  <include src="../common/head.wxml" />
+  <view class='page-body'>
+    <view class='demo-box'>
+      <view class='title'>1. 数据存储</view>
+      <navigator url='/pages/demo01/setStorage/setStorage'>wx.setStorage</navigator>
+      <navigator url='/pages/demo01/setStorageSync/setStorageSync'>wx.setStorageSync</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>2. 数据获取</view>
+      <navigator url='/pages/demo02/getStorage/getStorage'>wx.getStorage</navigator>
+      <navigator url='/pages/demo02/getStorageSync/getStorageSync'>wx.getStorageSync</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>3. 存储信息获取</view>
+      <navigator url='/pages/demo03/getStorageInfo/getStorageInfo'>wx.getStorageInfo</navigator>
+      <navigator url='/pages/demo03/getStorageInfoSync/getStorageInfoSync'>wx.getStorageInfoSync</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>4. 数据删除</view>
+      <navigator url='/pages/demo04/removeStorage/removeStorage'>wx.removeStorage</navigator>
+      <navigator url='/pages/demo04/removeStorageSync/removeStorageSync'>wx.removeStorageSync</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>5. 数据清空</view>
+      <navigator url='/pages/demo05/clearStorage/clearStorage'>wx.clearStorage</navigator>
+      <navigator url='/pages/demo05/clearStorageSync/clearStorageSync'>wx.clearStorageSync</navigator>
+    </view>
+  </view>
+  <include src="../common/foot.wxml" />
+</view>

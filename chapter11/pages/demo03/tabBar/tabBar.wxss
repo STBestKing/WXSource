@@ -1,0 +1,4 @@
+/* pages/demo03/tabBar/tabBar.wxss */
+button{
+  margin: 10rpx;
+}

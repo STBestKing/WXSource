@@ -1,0 +1,4 @@
+/* pages/demo08/pullDown/pullDown.wxss */
+button{
+  margin: 10rpx;
+}

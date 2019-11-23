@@ -1,0 +1,14 @@
+<!--pages/demo03/acc/acc.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>3. 传感器</view>
+    <view class='demo-box'>
+      <view class='title'>获取加速度信息</view>
+      <view class='status'>X轴：{{res.x}}</view>
+      <view class='status'>Y轴：{{res.y}}</view>
+      <view class='status'>Z轴：{{res.z}}</view>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

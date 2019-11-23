@@ -1,0 +1,13 @@
+<!--pages/demo02/recorder/recorder.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>2. 录音管理</view>
+    <view class='demo-box'>
+      <view class='title'>录音管理器</view>
+      <button type="primary" size='mini' bindtap="start">开始录音</button>
+      <button type="primary" size='mini' bindtap="stop">停止录音</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

@@ -1,0 +1,4 @@
+/* pages/demo05/brightness/brightness.wxss */
+button{
+  margin: 10rpx;
+}

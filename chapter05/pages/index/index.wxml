@@ -1,0 +1,16 @@
+<!--pages/index.wxml-->
+<view class='container'>
+  <include src="../common/head.wxml" />
+  <view class='page-body'>
+    <view class='demo-box'>
+      <view class='title'>1. 发起请求</view>
+      <navigator url='/pages/demo01/request/request'>发起请求</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>2. 文件传输</view>
+      <navigator url='/pages/demo02/upload/upload'>文件上传</navigator>
+      <navigator url='/pages/demo02/download/download'>文件下载</navigator>
+    </view>
+  </view>
+  <include src="../common/foot.wxml" />
+</view>

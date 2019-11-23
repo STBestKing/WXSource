@@ -1,0 +1,4 @@
+/* pages/demo07/rect/rect.wxss */
+button{
+  margin: 10rpx;
+}

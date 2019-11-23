@@ -1,0 +1,4 @@
+/* pages/demo/saveFile/saveFile.wxss */
+button{
+  margin: 15rpx;
+}

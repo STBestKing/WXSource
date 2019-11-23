@@ -1,0 +1,4 @@
+/* pages/demo02/upload/upload.wxss */
+button{
+  margin: 15rpx;
+}

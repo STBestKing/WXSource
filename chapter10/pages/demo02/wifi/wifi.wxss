@@ -1,0 +1,5 @@
+/* pages/demo02/wifi/wifi.wxss */
+.status {
+  text-align: left;
+  margin: 15rpx;
+}

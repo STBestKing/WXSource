@@ -1,0 +1,64 @@
+<!--pages/index.wxml-->
+<view class='container'>
+  <include src="../common/head.wxml" />
+  <view class='page-body'>
+    <view class='demo-box'>
+      <view class='title'>1. 交互反馈</view>
+      <navigator url='/pages/demo01/toast/toast'>消息提示框</navigator>
+      <navigator url='/pages/demo01/loading/loading'>加载提示框</navigator>
+      <navigator url='/pages/demo01/modal/modal'>模态弹窗</navigator>
+      <navigator url='/pages/demo01/actionsheet/actionsheet'>操作菜单</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>2. 设置导航条</view>
+      <navigator url='/pages/demo02/title/title'>设置当前页面标题</navigator>
+      <navigator url='/pages/demo02/loading/loading'>设置导航条加载动画</navigator>
+      <navigator url='/pages/demo02/color/color'>设置导航条颜色</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>3. tabBar设置</view>
+      <navigator open-type='switchTab' url='/pages/demo03/tabBar/tabBar'>tabBar的综合设置</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>4. 页面导航</view>
+      <navigator url='/pages/demo04/navigate/navigate'>页面导航的综合应用</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>5. 动画</view>
+      <navigator url='/pages/demo04/navigate/navigate'>动画的综合应用</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>6. 页面位置</view>
+      <navigator url='/pages/demo04/navigate/navigate'>页面位置</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>7. 绘图</view>
+      <view class='title'>(1)绘制矩形</view>
+      <navigator url='/pages/demo07/rect/rect'>绘制矩形</navigator>
+      <view class='title'>(2)绘制路径</view>
+      <navigator url='/pages/demo07/path/path'>绘制线段</navigator>
+      <navigator url='/pages/demo07/arc/arc'>绘制圆弧</navigator>
+      <navigator url='/pages/demo07/bezier/bezier'>绘制曲线</navigator>
+      <view class='title'>(3)绘制文本</view>
+      <navigator url='/pages/demo07/text/text'>绘制文本</navigator>
+      <view class='title'>(4)绘制图片</view>
+      <navigator url='/pages/demo07/image/image'>绘制图片</navigator>
+      <view class='title'>(5)颜色与样式</view>
+      <navigator url='/pages/demo07/alpha/alpha'>颜色透明度</navigator>
+      <navigator url='/pages/demo07/line/line'>线条样式</navigator>
+      <navigator url='/pages/demo07/gradient/gradient'>渐变样式</navigator>
+      <navigator url='/pages/demo07/shadow/shadow'>阴影样式</navigator>
+      <navigator url='/pages/demo07/pattern/pattern'>图案填充</navigator>
+      <view class='title'>(6)变形与剪裁</view>
+      <navigator url='/pages/demo07/transform/transform'>变形</navigator>
+      <navigator url='/pages/demo07/clip/clip'>剪裁</navigator>
+      <view class='title'>(7)图像导出</view>
+      <navigator url='/pages/demo07/preview/preview'>图像导出</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>8. 下拉刷新</view>
+      <navigator url='/pages/demo08/pullDown/pullDown'>下拉刷新的综合应用</navigator>
+    </view>
+  </view>
+  <include src="../common/foot.wxml" />
+</view>

@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/demo01/request/request",
+    "pages/demo02/upload/upload",
+    "pages/demo02/download/download"
+  ],
+  "window": {
+    "navigationBarTitleText": "例题DEMO"
+  }
+}

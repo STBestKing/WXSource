@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/demo/saveFile/saveFile",
+    "pages/demo/getFileInfo/getFileInfo",
+    "pages/demo/getSavedFileList/getSavedFileList",
+    "pages/demo/getSavedFileInfo/getSavedFileInfo",
+    "pages/demo/removeSavedFile/removeSavedFile",
+    "pages/demo/openDocument/openDocument"
+  ],
+  "window": {
+    "navigationBarTitleText": "例题DEMO"
+  }
+}

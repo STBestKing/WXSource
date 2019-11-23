@@ -1,0 +1,20 @@
+<!--pages/demo05/animation/animation.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>5. 动画</view>
+    <view class='demo-box'>
+      <view class='title'>animation的用法</view>
+      <view class='animation-view' animation='{{animation}}'>这是动画组件</view>
+      <button type="primary" size='mini' bindtap="rotate">旋转</button>
+      <button type="primary" size='mini' bindtap="scale">缩放</button>
+      <button type="primary" size='mini' bindtap="translate">偏移</button>
+      <button type="primary" size='mini' bindtap="skew">倾斜</button>
+      <button bindtap="sync">同时动画</button>
+      <button bindtap="queue">依次动画</button>
+      <button bindtap="reset">还原</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>
+

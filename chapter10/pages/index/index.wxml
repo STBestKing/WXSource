@@ -1,0 +1,33 @@
+<!--pages/index.wxml-->
+<view class='container'>
+  <include src="../common/head.wxml" />
+  <view class='page-body'>
+    <view class='demo-box'>
+      <view class='title'>1.系统信息</view>
+      <navigator url='/pages/demo01/getSysInfo/getSysInfo'>获取系统信息</navigator>
+      <navigator url='/pages/demo01/canIUse/canIUse'>canIUse判断</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>2. 网络</view>
+      <navigator url='/pages/demo02/network/network'>网络状态</navigator>
+      <navigator url='/pages/demo02/wifi/wifi'>Wi-Fi</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>3. 传感器</view>
+      <navigator url='/pages/demo03/compass/compass'>罗盘</navigator>
+      <navigator url='/pages/demo03/acc/acc'>加速度计</navigator>
+    </view>
+        <view class='demo-box'>
+      <view class='title'>4. 用户行为</view>
+      <navigator url='/pages/demo04/scanCode/scanCode'>扫码</navigator>
+      <navigator url='/pages/demo04/clipboard/clipboard'>剪贴板</navigator>
+      <navigator url='/pages/demo04/contact/contact'>通话</navigator>
+    </view>
+        <view class='demo-box'>
+      <view class='title'>5. 手机状态</view>
+      <navigator url='/pages/demo05/brightness/brightness'>屏幕亮度</navigator>
+      <navigator url='/pages/demo05/vibrate/vibrate'>振动</navigator>
+    </view>
+  </view>
+  <include src="../common/foot.wxml" />
+</view>

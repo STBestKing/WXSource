@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/demo01/getLocation/getLocation",
+    "pages/demo01/chooseLocation/chooseLocation",
+    "pages/demo02/openLocation/openLocation",
+    "pages/demo03/getCenterLocation/getCenterLocation",
+    "pages/demo03/moveToLocation/moveToLocation",
+    "pages/demo03/translateMarker/translateMarker",
+    "pages/demo03/includePoints/includePoints",
+    "pages/demo03/getRegion/getRegion",
+    "pages/demo03/getScale/getScale"
+  ],
+  "window": {
+    "navigationBarTitleText": "例题DEMO"
+  }
+}

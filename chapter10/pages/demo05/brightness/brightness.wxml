@@ -1,0 +1,21 @@
+<!--pages/demo05/brightness/brightness.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>5. 手机状态</view>
+    <view class='demo-box'>
+      <view class='title'>(1)设置屏幕亮度</view>
+      <slider min='0' max='1' value='0.5' step='0.1' show-value bindchange='sliderChange' />
+    </view>
+    <view class='demo-box'>
+      <view class='title'>(2)查询屏幕亮度</view>
+      <button type='primary' bindtap='getBrightness'>查询亮度</button>
+      <view class='title'>当前亮度：{{brightness}}</view>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>(3)保持屏幕常亮</view>
+      <switch bindchange='switchChange' />保持常亮
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

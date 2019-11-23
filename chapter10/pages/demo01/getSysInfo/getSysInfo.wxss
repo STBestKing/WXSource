@@ -1,0 +1,4 @@
+/* pages/demo01/getSysInfo/getSysInfo.wxss */
+button{
+  margin: 10rpx;
+}

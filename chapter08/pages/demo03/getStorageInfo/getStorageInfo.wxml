@@ -1,0 +1,16 @@
+<!--pages/demo03/getStorageInfo/getStorageInfo.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>3. 存储信息获取getStorageInfo的简单应用</view>
+    <view class='demo-box'>
+      <view class='title'>wx.getStorageInfo(OBJECT)异步获取</view>
+      <button type="primary" bindtap="getStorageInfo">存储信息获取</button>
+      <view class='title'>已使用空间：{{currentSize}}KB</view>
+      <view class='title'>最大空间：{{limitSize}}KB</view>
+      <view class='title' wx:for='{{keys}}' wx:key='key{{index}}'>KEY{{index}}：{{item}}</view>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>
+

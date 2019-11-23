@@ -1,0 +1,14 @@
+<!--pages/demo04/clipboard/clipboard.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>4. 用户行为</view>
+    <view class='demo-box'>
+      <view class='title'>剪贴板</view>
+      <view class='title'>{{code}}</view>
+      <button type="primary" bindtap="setClipboard">点击此处复制上面序列号</button>
+      <button bindtap="getClipboard">获取剪贴板内容</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

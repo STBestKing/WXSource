@@ -1,0 +1,14 @@
+<!--pages/demo01/canIUse/canIUse.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>1. 系统信息</view>
+    <view class='demo-box'>
+      <view class='title'>canIUse判断</view>
+      <input bindblur='inputBlur' placeholder='请输入需要判断的内容'></input>
+      <button type="primary" bindtap="canIUse">查询</button>
+      <view class='title'>查询结果：{{result}}</view>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

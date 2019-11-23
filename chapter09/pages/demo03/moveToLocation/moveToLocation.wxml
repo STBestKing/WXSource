@@ -1,0 +1,13 @@
+<!--pages/demo03/moveToLocation/moveToLocation.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>3. 地图组件控制moveToLocation的简单应用</view>
+    <view class='demo-box'>
+      <view class='title'>mapCtx.moveToLocation</view>
+      <map id='myMap' latitude='31.350790' longitude='118.412190' show-location></map>
+      <button type="primary" bindtap="moveToLocation">移动位置</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/demo01/setStorage/setStorage",
+    "pages/demo01/setStorageSync/setStorageSync",
+    "pages/demo02/getStorage/getStorage",
+    "pages/demo02/getStorageSync/getStorageSync",
+    "pages/demo03/getStorageInfo/getStorageInfo",
+    "pages/demo03/getStorageInfoSync/getStorageInfoSync",
+    "pages/demo04/removeStorage/removeStorage",
+    "pages/demo04/removeStorageSync/removeStorageSync",
+    "pages/demo05/clearStorage/clearStorage",
+    "pages/demo05/clearStorageSync/clearStorageSync"
+  ],
+  "window": {
+    "navigationBarTitleText": "例题DEMO"
+  }
+}

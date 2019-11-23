@@ -1,0 +1,23 @@
+<!--pages/demo03/picker-view/picker-view.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>3. 表单组件picker-view的简单应用</view>
+    <view class='demo-box'>
+      <view class='title'>今日菜单</view>
+      <view class='title'>{{menu}}</view>
+      <picker-view value='{{value}}' indicator-style='height: 50px;' bindchange='pickerviewChange'>
+        <picker-view-column>
+          <view class='col' wx:for='{{soup}}' wx:key='s{{index}}'>{{item}}</view>
+        </picker-view-column>
+        <picker-view-column>
+          <view class='col' wx:for='{{maincourse}}' wx:key='m{{index}}'>{{item}}</view>
+        </picker-view-column>
+        <picker-view-column>
+          <view class='col' wx:for='{{dessert}}' wx:key='d{{index}}'>{{item}}</view>
+        </picker-view-column>
+      </picker-view>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

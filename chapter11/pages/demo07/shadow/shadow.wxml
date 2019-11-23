@@ -1,0 +1,13 @@
+<!--pages/demo07/shadow/shadow.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>7. 绘图-颜色与样式</view>
+    <view class='demo-box'>
+      <view class='title'>阴影样式</view>
+      <canvas canvas-id='myCanvas' style='border:1rpx solid'></canvas>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>
+

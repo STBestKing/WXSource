@@ -1,0 +1,5 @@
+/* pages/demo06/scroll.wxss */
+.test{
+  height: 1200rpx;
+  background-color: lightyellow;
+}

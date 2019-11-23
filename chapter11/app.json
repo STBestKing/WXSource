@@ -1,0 +1,54 @@
+{
+  "enablePullDownRefresh": true,
+  "pages": [
+    "pages/index/index",
+    "pages/demo02/color/color",
+    "pages/demo02/loading/loading",
+    "pages/demo01/toast/toast",
+    "pages/demo01/loading/loading",
+    "pages/demo01/modal/modal",
+    "pages/demo01/actionsheet/actionsheet",
+    "pages/demo02/title/title",
+    "pages/demo03/tabBar/tabBar",
+    "pages/demo04/navigate/navigate",
+    "pages/demo04/new/new",
+    "pages/demo05/animation/animation",
+    "pages/demo06/scroll/scroll",
+    "pages/demo07/rect/rect",
+    "pages/demo07/path/path",
+    "pages/demo07/arc/arc",
+    "pages/demo07/bezier/bezier",
+    "pages/demo07/text/text",
+    "pages/demo07/image/image",
+    "pages/demo07/alpha/alpha",
+    "pages/demo07/line/line",
+    "pages/demo07/gradient/gradient",
+    "pages/demo07/shadow/shadow",
+    "pages/demo07/pattern/pattern",
+    "pages/demo07/transform/transform",
+    "pages/demo07/clip/clip",
+    "pages/demo07/preview/preview",
+    "pages/demo08/pullDown/pullDown"
+  ],
+  "window": {
+    "navigationBarTitleText": "例题DEMO"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#1AAD19",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/demo03/house.png",
+        "selectedIconPath": "images/demo03/house_green.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/demo03/tabBar/tabBar",
+        "iconPath": "images/demo03/star.png",
+        "selectedIconPath": "images/demo03/star_green.png",
+        "text": "tabBar例题"
+      }
+    ]
+  }
+}

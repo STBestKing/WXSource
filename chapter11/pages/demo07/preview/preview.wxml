@@ -1,0 +1,13 @@
+<!--pages/demo07/preview/preview.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>7. 绘图</view>
+    <view class='demo-box'>
+      <view class='title'>绘制线段</view>
+      <canvas canvas-id='myCanvas' style='border:1rpx solid'></canvas>
+      <button type='primary' bindtap='previewImage'>预览图片</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

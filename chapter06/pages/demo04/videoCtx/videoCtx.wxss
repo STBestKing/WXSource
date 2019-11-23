@@ -1,0 +1,6 @@
+/* pages/demo04/videoCtx/videoCtx.wxss */
+input {
+  border: 1rpx solid lightblue;
+  height: 90rpx;
+  margin: 10rpx;
+}

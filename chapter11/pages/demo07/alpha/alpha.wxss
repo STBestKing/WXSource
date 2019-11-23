@@ -1,0 +1,4 @@
+/* pages/demo07/alpha/alpha.wxss */
+button{
+  margin: 10rpx;
+}

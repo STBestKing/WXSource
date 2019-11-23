@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/demo01/getSysInfo/getSysInfo",
+    "pages/demo01/canIUse/canIUse",
+    "pages/demo02/network/network",
+    "pages/demo02/wifi/wifi",
+    "pages/demo03/compass/compass",
+    "pages/demo03/acc/acc",
+    "pages/demo04/scanCode/scanCode",
+    "pages/demo04/clipboard/clipboard",
+    "pages/demo04/contact/contact",
+    "pages/demo05/brightness/brightness",
+    "pages/demo05/vibrate/vibrate"
+  ],
+  "window": {
+    "navigationBarTitleText": "例题DEMO"
+  }
+}

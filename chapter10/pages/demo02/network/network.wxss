@@ -1,0 +1,5 @@
+/* pages/demo03/network/network.wxss */
+.status{
+  font-size: 50rpx;
+  margin:20rpx;
+}

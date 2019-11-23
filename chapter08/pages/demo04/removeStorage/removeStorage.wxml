@@ -1,0 +1,13 @@
+<!--pages/demo04/removeStorage/removeStorage.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>4. 数据删除removeStorage的简单应用</view>
+    <view class='demo-box'>
+      <view class='title'>wx.removeStorage(OBJECT)异步删除</view>
+      <input name='key' placeholder='请输入KEY名称' bindinput='keyInput' />
+      <button type="primary" bindtap="removeStorage">数据删除</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

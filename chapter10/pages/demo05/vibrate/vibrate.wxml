@@ -1,0 +1,16 @@
+<!--pages/demo05/vibrate/vibrate.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>5. 手机状态</view>
+    <view class='demo-box'>
+      <view class='title'>(1)长时间振动（400ms）</view>
+      <button type='primary' bindtap='vibrateLong'>开始振动</button>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>(2)短时间振动（15ms）</view>
+      <button type='primary' bindtap='vibrateShort'>开始振动</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

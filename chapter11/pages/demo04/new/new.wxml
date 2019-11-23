@@ -1,0 +1,8 @@
+<!--pages/demo04/new/new.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>这是一个新页面</view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

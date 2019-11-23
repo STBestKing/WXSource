@@ -1,0 +1,4 @@
+/* pages/demo07/clip/clip.wxss */
+button{
+  margin: 10rpx;
+}

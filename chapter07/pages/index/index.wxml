@@ -1,0 +1,15 @@
+<!--pages/index.wxml-->
+<view class='container'>
+  <include src="../common/head.wxml" />
+  <view class='page-body'>
+    <view class='demo-box'>
+      <navigator url='/pages/demo/saveFile/saveFile'>保存文件</navigator>
+      <navigator url='/pages/demo/getFileInfo/getFileInfo'>获取文件信息</navigator>
+      <navigator url='/pages/demo/getSavedFileList/getSavedFileList'>获取本地文件列表</navigator>
+      <navigator url='/pages/demo/getSavedFileInfo/getSavedFileInfo'>获取本地文件信息</navigator>
+      <navigator url='/pages/demo/removeSavedFile/removeSavedFile'>删除本地文件</navigator>
+      <navigator url='/pages/demo/openDocument/openDocument'>打开文档</navigator>
+    </view>
+  </view>
+  <include src="../common/foot.wxml" />
+</view>

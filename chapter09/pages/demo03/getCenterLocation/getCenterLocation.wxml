@@ -1,0 +1,15 @@
+<!--pages/demo03/getCenterLocation/getCenterLocation.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>3. 地图组件控制getCenterLocation的简单应用</view>
+    <view class='demo-box'>
+      <view class='title'>mapCtx.getCenterLocation(OBJECT)</view>
+      <map id='myMap'></map>
+      <button type="primary" bindtap="getCenterLocation">获取位置</button>
+      <view class='title'>纬度：{{lat}}</view>
+      <view class='title'>经度：{{lon}}</view>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

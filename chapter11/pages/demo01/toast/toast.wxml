@@ -1,0 +1,16 @@
+<!--pages/demo01/toast/toast.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>1. 交互反馈-消息提示框的简单应用</view>
+    <view class='demo-box'>
+      <view class='title'>(1) 显示消息提示框</view>
+      <button type="primary" bindtap="showToast">显示Toast</button>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>(2) 关闭消息提示框</view>
+      <button type="primary" bindtap="hideToast">关闭Toast</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

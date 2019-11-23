@@ -1,0 +1,15 @@
+<!--pages/demo07/rect/rect.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>7. 绘图</view>
+    <view class='demo-box'>
+      <view class='title'>绘制矩形</view>
+      <canvas canvas-id='myCanvas' style='border:1rpx solid'></canvas>
+      <button type='primary' size='mini' bindtap='fillRect'>填充矩形</button>
+      <button type='primary' size='mini' bindtap='strokeRect'>描边矩形</button>
+      <button type='primary' size='mini' bindtap='clearRect'>清空画布</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

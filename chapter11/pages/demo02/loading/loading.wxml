@@ -1,0 +1,16 @@
+<!--pages/demo02/loading/loading.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>2. 导航条设置-加载动画的简单应用</view>
+    <view class='demo-box'>
+      <view class='title'>(1) 显示导航条加载动画</view>
+      <button type="primary" bindtap="showLoading">显示加载动画</button>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>(2) 关闭导航条加载动画</view>
+      <button type="primary" bindtap="hideLoading">关闭加载动画</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

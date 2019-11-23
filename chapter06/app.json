@@ -1,0 +1,15 @@
+{
+  "pages": [
+        "pages/demo04/videoCtx/videoCtx",
+    "pages/index/index",
+    "pages/demo01/image/image",
+    "pages/demo02/recorder/recorder",
+    "pages/demo03/bgAudio/bgAudio",
+    "pages/demo03/audioCtx/audioCtx",
+
+    "pages/demo05/camera/camera"
+  ],
+  "window": {
+    "navigationBarTitleText": "例题DEMO"
+  }
+}

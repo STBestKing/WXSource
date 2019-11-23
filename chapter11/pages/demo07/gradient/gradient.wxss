@@ -1,0 +1,4 @@
+/* pages/demo07/gradient/gradient.wxss */
+button{
+  margin: 10rpx;
+}

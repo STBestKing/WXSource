@@ -1,0 +1,13 @@
+<!--pages/demo03/getRegion/getRegion.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>3. 地图组件控制getRegion的简单应用</view>
+    <view class='demo-box'>
+      <view class='title'>mapCtx.getRegion(OBJECT)</view>
+      <map id='myMap'></map>
+      <button type="primary" bindtap="getRegion">获取视野范围</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

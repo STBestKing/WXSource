@@ -1,0 +1,13 @@
+<!--pages/demo06/scroll.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>6. 页面位置</view>
+    <view class='demo-box'>
+      <view class='title'>wx.pageScrollTo(OBJECT)的用法</view>
+      <view class='test'>这是一个高度超过手机屏幕的组件</view>
+      <button type="primary" bindtap="backToTop">回到顶部</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

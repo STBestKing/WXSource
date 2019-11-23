@@ -1,0 +1,28 @@
+<!--pages/index.wxml-->
+<view class='container'>
+  <include src="../common/head.wxml" />
+  <view class='page-body'>
+    <view class='demo-box'>
+      <view class='title'>1. 图片管理</view>
+      <navigator url='/pages/demo01/image/image'>图片管理综合应用</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>2. 录音管理</view>
+      <navigator url='/pages/demo02/recorder/recorder'>录音管理综合应用</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>3. 音频管理</view>
+      <navigator url='/pages/demo03/bgAudio/bgAudio'>背景音频管理</navigator>
+      <navigator url='/pages/demo03/audioCtx/audioCtx'>音频组件控制</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>4. 视频管理</view>
+      <navigator url='/pages/demo04/videoCtx/videoCtx'>视频管理综合应用</navigator>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>5. 相机管理</view>
+      <navigator url='/pages/demo05/camera/camera'>相机管理综合应用</navigator>
+    </view>
+  </view>
+  <include src="../common/foot.wxml" />
+</view>

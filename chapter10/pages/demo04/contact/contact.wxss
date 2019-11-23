@@ -1,0 +1,4 @@
+/* pages/demo04/contact/contact.wxss */
+input,button{
+  margin: 15rpx;
+}

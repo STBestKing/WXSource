@@ -1,0 +1,28 @@
+<!--pages/demo04/navigate/navigate.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>4. 页面导航</view>
+    <view class='demo-box'>
+      <view class='title'>(1)wx.navigateTo</view>
+      <button type="primary" size='mini' bindtap="navigateTo">跳转新页面</button>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>(2)wx.navigateBack</view>
+      <button type="primary" size='mini' bindtap="navigateBack">返回首页</button>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>(3)wx.redirectTo</view>
+      <button type="primary" size='mini' bindtap="redirectTo">当前页面重定向</button>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>(4)wx.reLaunch</view>
+      <button type="primary" size='mini' bindtap="reLaunch">重启页面</button>
+    </view>
+    <view class='demo-box'>
+      <view class='title'>(5)wx.switchTab</view>
+      <button type="primary" size='mini' bindtap="switchTab">切换到tabBar例题页面</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

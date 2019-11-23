@@ -1,0 +1,14 @@
+<!--pages/demo03/audioCtx/audioCtx.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>3. 音频管理</view>
+    <view class='demo-box'>
+      <view class='title'>音频组件控制</view>
+      <button type="primary" size='mini' bindtap="play">播放</button>
+      <button type="primary" size='mini' bindtap="stop">停止</button>
+      <button type="primary" size='mini' bindtap="pause">暂停</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

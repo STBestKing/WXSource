@@ -1,0 +1,12 @@
+/* pages/demo05/animation/animation.wxss */
+.animation-view{
+  width: 220rpx;
+  height: 220rpx;
+  background-color: lightgreen;
+  margin: 20rpx auto;
+  line-height: 220rpx;
+}
+
+button{
+  margin: 10rpx;
+}

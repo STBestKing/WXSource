@@ -1,0 +1,13 @@
+<!--pages/demo03/bgAudio/bgAudio.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>3. 音频管理</view>
+    <view class='demo-box'>
+      <view class='title'>背景音频管理</view>
+      <button type="primary" size='mini' bindtap="play">播放</button>
+      <button type="primary" size='mini' bindtap="pause">暂停</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

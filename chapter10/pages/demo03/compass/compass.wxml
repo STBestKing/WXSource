@@ -1,0 +1,12 @@
+<!--pages/demo03/compass/compass.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>3. 传感器</view>
+    <view class='demo-box'>
+      <view class='title'>获取罗盘信息</view>
+      <view class='status'>当前方向是：{{degree}}</view>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

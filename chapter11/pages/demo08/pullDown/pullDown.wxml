@@ -1,0 +1,13 @@
+<!--pages/demo08/pullDown/pullDown.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>8. 下拉刷新</view>
+    <view class='demo-box'>
+      <view class='title'>模拟下拉刷新</view>
+      <button type='primary' bindtap='startPullDown'>开始下拉</button>
+      <button type='primary' bindtap='stopPullDown'>停止下拉</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

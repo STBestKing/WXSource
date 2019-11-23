@@ -1,0 +1,14 @@
+<!--pages/demo02/getStorageSync/getStorageSync.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>2. 数据获取getStorageSync的简单应用</view>
+    <view class='demo-box'>
+      <view class='title'>wx.getStorageSync(KEY)同步获取</view>
+      <input name='key' placeholder='请输入KEY名称' bindinput='keyInput' />
+      <button type="primary" bindtap="getStorageSync">数据获取</button>
+      <view class='title'>DATA值：{{data}}</view>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>

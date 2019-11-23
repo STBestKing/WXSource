@@ -1,0 +1,16 @@
+<!--pages/demo01/image/image.wxml-->
+<view class='container'>
+  <include src='../../common/head.wxml' />
+  <view class='page-body'>
+    <view class='title'>1. 图片管理</view>
+    <view class='demo-box'>
+      <view class='title'>图片管理的综合应用</view>
+      <button bindtap="chooseImage">选择图片</button>
+      <image src='{{src}}' mode='widthFix'></image>
+      <button type="primary" size='mini' bindtap="previewImage">预览图片</button>
+      <button type="primary" size='mini' bindtap="getImageInfo">图片信息</button>
+      <button type="primary" size='mini' bindtap="saveImage">保存图片</button>
+    </view>
+  </view>
+  <include src='../../common/foot.wxml' />
+</view>
